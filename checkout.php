@@ -30,23 +30,20 @@
         <section>
             <div class="container">
                 <h1>Checkout</h1>
-                <a href="exp://REPLACE_ME/complete.php" class="button">Submit order</a>
+                <a href="https://www.themichael.co.uk/projects/shop-test/complete.php" class="button">Submit order</a>
             </div>
         </section>
     </div>
     <script>
         var links = document.querySelectorAll('a'),
-            baseUri = 'https://www.themichael.co.uk/projects/shop-test/',
             linkingUri = ''
 
         var qs = decodeURIComponent(document.location.search);
         if (qs) {
             linkingUri = qs.split('?linkingUri=')[1]
-            //baseUri = linkingUri
         }
 
         for (var i = 0; i < links.length; ++i) {
-            links[i].href = links[i].href.replace('exp://REPLACE_ME/', baseUri);
 
             var url = new URL(links[i].href);
 
