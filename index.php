@@ -11,6 +11,15 @@
         body {
             margin: 0;
         }
+        .container {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        section {
+            padding: 20px 0;
+        }
     </style>
 </head>
 <body>
