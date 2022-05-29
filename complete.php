@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Complete</h1>
-    <a href="/" class="button">Go to homepage</a>
+    <a href="index.php" class="button">Go to homepage</a>
 </body>
 </html>

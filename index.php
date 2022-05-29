@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Homepage</h1>
-    <a href="/checkout.php" class="button">Go to checkout</a>
+    <a href="checkout.php" class="button">Go to checkout</a>
 </body>
 </html>

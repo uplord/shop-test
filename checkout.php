@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Checkout</h1>
-    <a href="/complete.php" class="button">Submit order</a>
+    <a href="complete.php" class="button">Submit order</a>
 </body>
 </html>
