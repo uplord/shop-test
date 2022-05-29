@@ -11,6 +11,9 @@
         body {
             margin: 0;
         }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
         .container {
             width: 100%;
             max-width: 1440px;
@@ -23,7 +26,13 @@
     </style>
 </head>
 <body>
-    <h1>Complete</h1>
-    <a href="index.php" class="button">Go to homepage</a>
+    <div id="page">
+        <section>
+            <div class="container">
+                <h1>Complete</h1>
+                <a href="index.php" class="button">Go to homepage</a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
