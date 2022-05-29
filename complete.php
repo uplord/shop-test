@@ -30,9 +30,23 @@
         <section>
             <div class="container">
                 <h1>Complete</h1>
-                <a href="index.php" class="button">Go to homepage</a>
+                <a href="exp://REPLACE_ME/?success=complete" class="button">Go to homepage</a>
             </div>
         </section>
     </div>
+
+    <script>
+        var links = document.querySelectorAll('a'),
+            baseUri = 'https://www.themichael.co.uk/projects/shop-test/';
+
+        var qs = decodeURIComponent(document.location.search);
+        if (qs) {
+            baseUri = qs.split('?linkingUri=')[1];
+        }
+
+        for (var i = 0; i < links.length; ++i) {
+            links[i].href = links[i].href.replace('exp://REPLACE_ME/', baseUri);
+        }
+    </script>
 </body>
 </html>
